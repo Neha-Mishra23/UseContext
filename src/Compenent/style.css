@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.light-Mode{
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.dark-Mode{
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: black; 
+}
+.imge{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    margin: auto;
+}
+.imge img{
+    width: 100%;
+    height: 100%;
+}
+.description{
+    padding-top: 15px;
+}
+.icone{
+    padding-top: 10px;
+}
+.icone i{
+    color: rgb(250, 183, 27);
+    letter-spacing: 5px;
+}
+.text{
+    padding-top: 15px;
+    color: white;
+}
+#star{
+    color: grey;
+    
+}
+.price{
+    padding-top: 10px;
+}
+.price h2{
+   color: black;
+   display: inline;
+}
+.button{
+     float: right;
+     padding: 8px;
+     background-color: rgb(84, 84, 255);
+     border-radius: 8px;
+    cursor: pointer;
+     border: none;
+}
+.text1{
+    padding-top: 10px;
+}
+.text1 h2{
+    color: white;
+    display: inline;
+}
